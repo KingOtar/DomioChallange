@@ -12,11 +12,15 @@ DomioApplicationBalancer-2109317508.us-west-2.elb.amazonaws.com
 That link is currently running 2 instances of the application. Celery is running locally on those applications and redis is running on a seperate server. Celery never seemed to work :/. I was going to debug why celery was not calling the application function but I ran out of time.
 
 Here are some credentials to get access to the Dashboard for the kittens on AWS
+
 https://megassessment.signin.aws.amazon.com/console
+
 User: Domio
+
 Password: 7'|lCSKwi62K
 
 Here is an endpoint to kill a server. Hit it twice in succession to kill both servers. There will be a minute of two of downtime in this case before the new servers boot up.
+
 https://xaf6zeh5ai.execute-api.us-west-2.amazonaws.com/kill
 
 ## Secrets
