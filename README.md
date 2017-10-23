@@ -6,6 +6,7 @@ I have included a few of the config files needed for this project as well as som
 ## Endpoints and Logs
 
 Here is the location of the load balancer that handles running the application
+
 DomioApplicationBalancer-2109317508.us-west-2.elb.amazonaws.com
 
 That link is currently running 2 instances of the application. Celery is running locally on those applications and redis is running on a seperate server. Celery never seemed to work :/. I was going to debug why celery was not calling the application function but I ran out of time.
